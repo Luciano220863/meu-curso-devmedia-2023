@@ -8,7 +8,7 @@ body {
 
 h1 {
     font-style: italic;
-    text-align: center;
+    text-align: left;
     color: blue;
     background: #A9A9A9;
     padding: 15px;
@@ -19,11 +19,11 @@ h1 {
 
 h2 {
     font-style: italic;
-    text-align: center;
+    text-align:left;
     color: rgb(6, 146, 127);
     background: #A9A9A9;
-    padding: 5px;
-    margin: 0;
+    padding: 15px;
+    margin: 25px;
     border-radius: 5px;
 
 }
@@ -34,13 +34,13 @@ h3 {
     color: rgb(205, 144, 247);
     background: #0000CD;
     padding: 15px;
-    margin: 15px;
+    margin: 25px;
     border-radius: 5px;
 }
 
 p {
     font-style: oblique;
-    text-align: justify;
+    text-align: left;
     margin-left: 15px;
     margin-right: auto;
     padding-top: 2px;
@@ -110,4 +110,14 @@ img {
 }
 .current-item{
     opacity: 1;
+}
+
+ul{
+    background: rgb(163, 159, 159); 
+    text-align:left; 
+    font-size: x-large; 
+    border-radius: 5px; 
+    padding: 0px; 
+    margin-right: 500px;
+    margin-left: 550px;
 }
